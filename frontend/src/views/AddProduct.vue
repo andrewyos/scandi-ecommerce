@@ -178,6 +178,7 @@ export default {
       }
       this.$axios.post("/create.php", payload).then((response) => {
         this.resetAllForm();
+        window.location= "/"
         console.log(response);
       });
     },

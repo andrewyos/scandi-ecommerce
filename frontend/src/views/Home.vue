@@ -15,9 +15,9 @@
       </div>
     </div>
     <hr />
-    <div class="row" style="height: 75vh">
+    <div class="row" style="height: 75vh; grid-gap: 10px">
       <div class="col-3" v-for="item in product" :key="item.id_product">
-        <div class="card" style="width: 18rem; height: 35vh">
+        <div class="card" style="width: 18rem; min-height: 35vh;">
           <div class="card-body">
             <div class="d-flex">
               <div>

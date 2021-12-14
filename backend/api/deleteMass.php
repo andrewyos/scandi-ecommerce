@@ -20,7 +20,7 @@
     $item->id_product = $data->id_product;
 
     if ($item->deleteMassProduct()) {
-        echo json_encode('Employee deleted.');
+        echo json_encode(' deleted.');
     } else {
         echo json_encode('Data could not be deleted');
     }
